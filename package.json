@@ -1,0 +1,21 @@
+{
+  "name": "raketech",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "ui-test": "npx playwright test ui-test.spec.js",
+    "report": "npx playwright show-report",
+    "api-test": "npx newman run api-test/API-Test.postman_collection.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.41.1",
+    "@types/node": "^20.11.13"
+  },
+  "dependencies": {
+    "package.json": "^0.0.0"
+  }
+}
